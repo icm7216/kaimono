@@ -47,7 +47,7 @@ module Kaimono
       puts "The kaimono command generates HTML files" 
       puts "from YAML-formatted files."
       puts
-      puts "Usage: kaimono#{$0} <YAML format file>"
+      puts "Usage: kaimono <YAML format file>"
       puts
       puts "version: #{Kaimono::VERSION}"
     end

@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["icm7216d@gmail.com"]
 
   spec.summary       = "Ruby Shopping List"
-  spec.description   = "Shopping List YAML to HTML"
+  spec.description   = "Create your Shopping List."
   spec.homepage      = "https://github.com/icm7216/kaimono"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
