@@ -1,39 +1,43 @@
 # Kaimono
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/kaimono`. To experiment with that code, run `bin/console` for an interactive prompt.
+The kaimono command generates a shopping list with checkboxes from a shopping list in YAML format.
 
-TODO: Delete this and the text above, and describe your gem
+# Install
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'kaimono'
+```
+gem install kaimono
 ```
 
-And then execute:
+# Usage
 
-    $ bundle install
+```
+kaimono <YAML format file>
+```
 
-Or install it yourself as:
+for example
+```
+kaimono kaimono.yml
+```
 
-    $ gem install kaimono
+`kaimono.yml`
+```
+mylist1:
+- bread  1
+- milk   1
+- banana 1
 
-## Usage
+mylist2:
+- bread 2
+- milk  2
+- banana2
 
-TODO: Write usage instructions here
+```
 
-## Development
+kaimono command generates `kaimono.html`.
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test-unit` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+<img src="./img/kaimono.png" width="50%">
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/kaimono.
-
-## License
+# License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

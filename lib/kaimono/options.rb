@@ -44,8 +44,7 @@ module Kaimono
     end
 
     def usage_message
-      puts "The kaimono command generates HTML files" 
-      puts "from YAML-formatted files."
+      puts "The kaimono command generates HTML file from YAML-formatted Shopping List."
       puts
       puts "Usage: kaimono <YAML format file>"
       puts
