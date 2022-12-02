@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/kaimono.svg)](https://badge.fury.io/rb/kaimono)
 # Kaimono
 
 The kaimono command generates a shopping list with checkboxes from a shopping list in YAML format.
